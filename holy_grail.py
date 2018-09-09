@@ -1,4 +1,4 @@
-"""This program is for storing all of my most dirty secrets"""
+"""This program is for storing all of your most dirty secrets"""
 #Lines are taken according to the online transcript of the bridge
 #scene from MP Holy Grail. Scipt used:
 #URL: http://www.mit.edu/afs.new/sipb/user/ayshames/Python/BRIDGE.PYTHON
@@ -7,15 +7,8 @@ from time import sleep
 from random import randint
 
 dictionary = {
-"Home wifi password" : "AlexRufto69",
-"Apple password" : "AlexRufto69",
-"Chegg password" : "Cheese1",
-"Favorite breakfast pastery" : "Old Fasion Donut",
-"Favorite cheese" : "Pepperjack!",
-"Favorite game" : "Chess",
-"Favorite sport" : "Football(European)",
-"My favorite programming language" : "Python 2.7"
-"Github password" : "AlexRufto69"
+"Favorite Animal" : "Zebra",
+"Top Secret Code" : "1234"
 }
 
 #prints the items from the dictionary onto the terminal.
@@ -98,7 +91,7 @@ def galahad():
     else:
         print "You may not cross the bridge."
 
-#function(my favorite one so far) for Arthur's questions
+#function(my favorite) for Arthur's questions
 def arthur():
     quest = raw_input('What...is your quest? ')
     if quest == 'to seek the holy grail':
